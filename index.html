@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta name="description" content="Najwa Porto">
+        <meta name="author" content="Najwa">
+        <title>Najwa Porto</title>
+
+        <link href="assets/stylesheets/header.css" rel="stylesheet" />
+        <link href="assets/stylesheets/index.main.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="right-menu"><a href="#">2023</a></li>
+                    <li><a href="#">Ln</a></li>
+                    <li><a href="https://wa.me/6281289902380">Wa</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home">
+            <p>Welcome to</p>
+            <p>O'nell</p>
+            <p>WEBSITE</p>
+        </section>
+
+        <section class="about" id="about">
+            <p>ABOUT O'NELL</p>
+            <p>Glad to see You here!</p>
+            <p>I am Najwa O'Nell soon-to-be a Bachelor's Degree in Visual</p>
+            <p>Communication Design from Semarang State University.</p>
+        </section>
+
+        <section class="portfolio" id="about">
+            <p>PIECE OF WORK</p>
+
+            <div class="card-project">
+                <p>Muya - Food and Baverage</p>
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+            <p>Let's Make a Collab</p>
+            <p>Interest to working together in the future?</p>
+            <p>Contact me anytime</p>
+
+            <p>+62</p>
+            <p>812 8990 2380</p>
+            <p>najwaonell@gmail.com</p>
+            <p>Jakarta, ID</p>
+        </section>
+
+        <footer>
+            <p class="text-center">2023 Copyright - O'nell</p>
+        </footer>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <script type="text/javascript" >
+            $(document).on('click', 'a[href^="#"]', function (event) {
+              event.preventDefault();
+          
+              $('html, body').animate({
+                  scrollTop: $($.attr(this, 'href')).offset().top
+              }, 500);
+            });
+      </script>
+
+    </body>
+</html>
