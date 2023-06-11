@@ -6,6 +6,7 @@
 
         <link href="assets/stylesheets/header.css" rel="stylesheet" />
         <link href="assets/stylesheets/index.main.css" rel="stylesheet" />
+        <link href="assets/stylesheets/footer.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -16,60 +17,120 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li class="right-menu"><a href="#">2023</a></li>
-                    <li><a href="#">Ln</a></li>
+                    <li><a href="#"><img src = "assets/images/linkedin logo.svg" alt="Linkedin"/></a></li>
                     <li><a href="https://wa.me/6281289902380">Wa</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="home">
-            <p>Welcome to</p>
-            <p>O'nell</p>
-            <p>WEBSITE</p>
+            <img src = "assets/images/onell raster export.svg" alt="Onell Large Title Name"/>
         </section>
 
         <section class="about" id="about">
-            <p>ABOUT O'NELL</p>
-            <p>Glad to see You here!</p>
-            <p>I am Najwa O'Nell soon-to-be a Bachelor's Degree in Visual</p>
-            <p>Communication Design from Semarang State University.</p>
+            <img src = "assets/images/najwa_photo.png" alt="Najwa Photograph"/>
+
+            <div>
+                <p>ABOUT O'NELL</p>
+                <p>Glad to see You here!</p>
+                <p>I am Najwa O'Nell soon-to-be a Bachelor's Degree in Visual</p>
+                <p>Communication Design from Semarang State University.</p>
+                <p>Have a great interest in developing myself and seeking out</p>
+                <p>experiences in media, communication and design field</p>
+                <p>with 1+ years experience. Someone who is passionate, </p>
+                <p>positive and driven to make innovations attractive.</p>
+                <p><a href="#">See my Curriculum Vitae</a></p>
+            </div>
+            
         </section>
 
-        <section class="portfolio" id="about">
+        <section class="portfolio" id="portfolio">
             <p>PIECE OF WORK</p>
 
             <div class="card-project">
-                <p>Muya - Food and Baverage</p>
+                <div class="project-header">
+                    <p>Website</p>
+                    <p>Packaging</p>
+                    <p>Wayfinding & Signage</p>
+                </div>
+
+                <div class="project">
+                    <img src = "assets/images/Landing page muya.png" alt="Landing Page Muya"/>
+
+                    <div>
+                        <div class="project-info">
+                            <img src = "assets/images/logo muya.png" alt="Logo Muya"/>
+                            <p class="project-title">MUYA</p>
+                            <p class="project-industry">FOOD & BAVERAGE</p>
+                            <p class="project-remark">In a Collaboration with Wafi FS</p>
+                        </div>
+    
+                        <div class="project-description">
+                            <p>Create a website landing page for MUYA food & beverage.</p>
+                            <p>Also UI Kit for the landing page, including logo, icons,</p>
+                            <p>typography, color palette, gradients, photos, etc.</p>
+                        </div>
+                        
+                        <p class="project-attachment"><a href="#">See project here</a></p>
+                    </div>
+                    
+                </div>
             </div>
+
+            <!-- <div class="card-project">
+                <div class="project">
+                    <img src = "assets/images/package_cokoa.png" alt="Packaging Cokoa"/>
+                    
+                    <div class="project-info">
+                        <img src = "assets/images/logo cokoa.png" alt="Logo Cokoa"/>
+                        <p class="project-title">COKOA</p>
+                        <p class="project-industry">CHOCOLATE BAR</p>
+                        <p class="project-remark">Label Individual Assignment</p>
+                    </div>
+                    
+    
+                    <div class="project-description">
+                        <p>Indonesia's Finest Chocolate. The challenge is to create</p>
+                        <p>label packaging for UMKM product in Central Java. The</p>
+                        <p>product itself doesn't have a brand name so we can</p>
+                        <p>create our own, in this case i chose Cokoa.</p>
+                    </div>
+                    
+                    <p class="project-attachment"><a href="#">See project here</a></p>
+                </div>
+            </div> -->
+            
 
         </section>
 
         <section class="contact" id="contact">
-            <p>Let's Make a Collab</p>
-            <p>Interest to working together in the future?</p>
-            <p>Contact me anytime</p>
+            <p >Let's Make a</p>
+            <p>Collab</p>
+            <p class="contact-sub-text">Interest to working together in the future?</p>
+            <p class="contact-sub-text">Contact me anytime</p>
 
-            <p>+62</p>
-            <p>812 8990 2380</p>
-            <p>najwaonell@gmail.com</p>
-            <p>Jakarta, ID</p>
+            <div class="contact-details">
+                <p class="right-side">+62 812 8990 2380</p>
+                <p class="right-side">najwaonell@gmail.com</p>
+                <p class="right-side">Jakarta, ID</p>
+            </div>
+            
         </section>
-
-        <footer>
-            <p class="text-center">2023 Copyright - O'nell</p>
-        </footer>
 
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
         <script type="text/javascript" >
             $(document).on('click', 'a[href^="#"]', function (event) {
-              event.preventDefault();
-          
-              $('html, body').animate({
-                  scrollTop: $($.attr(this, 'href')).offset().top
-              }, 500);
+            event.preventDefault();
+        
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
             });
-      </script>
-
+        </script>
     </body>
+
+    <footer>
+        <p>2023 Copyright - O'nell</p>
+    </footer>
 </html>

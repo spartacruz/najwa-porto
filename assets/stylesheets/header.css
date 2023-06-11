@@ -3,7 +3,6 @@
 .navbar {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     position: fixed;
     width: 100%;
     background-color: white;
@@ -19,14 +18,12 @@
 .navbar > ul {
     display: flex;
     width: 100%;
-    padding: 50px;
-    /* justify-content: center; */
+    padding: 40px;
 }
 
 .navbar > ul > li {
-    margin: 0px 8px;
+    margin: 0px 26px;
     list-style: none;
-    /* display: inline; */
 }
 
 .navbar > ul > li > a {

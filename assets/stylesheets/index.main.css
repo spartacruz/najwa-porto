@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
-    /* overflow-y: hidden; */
     overflow: visible;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 body {
@@ -10,40 +10,89 @@ body {
 }
 
 .home {
-    /* margin-top: -100px; */
-    padding-top: 300px !important;
+    padding-top: 200px !important;
     background-color: #FE50A9;
     height: 100vh;
-    padding: 10px 50px 50px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
 }
 
 .about {
-    padding-top: 100px;
+    padding-top: 200px;
     background-color: #FE50A9;
     height: 100vh;
-    padding: 10px 50px 50px 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    display: flex;
+
 }
 
 .portfolio {
-    padding-top: 100px;
+    padding-top: 200px;
     background-color: #FFE11C;
     height: 100vh;
-    padding: 10px 50px 50px 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
 }
 
 .contact {
-    padding-top: 100px;
+    padding-top: 200px;
     background-color: #1B5ACC;
     height: 100vh;
-    padding: 10px 50px 50px 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
 }
 
 .card-project {
     background-color: white;
-    height: 50%;
-    width: 50%;
-    padding: 10px 50px 50px 10px;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 35px;
     border-radius: 24px;
 }
 
+.home img {
+    max-width: 100%;
+    align-items: center;
+}
+
+.about div {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.right-side {
+    text-align: right;
+}
+
+.contact .contact-details {
+    margin-top: 50px;
+}
+
+.contact p {
+    font-size: 35px;
+}
+
+.card-project > .project {
+    display: flex;
+}
+
+.project-header {
+    display: flex;
+}
+
+.project-header > p {
+    margin-right: 10px;
+}
+
+.project > img {
+    margin-right: 50px;
+}
