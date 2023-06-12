@@ -29,7 +29,9 @@ body {
 }
 
 .about-title {
-    font-family: "MagicRetro";
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
     font-size: 68px;
 }
 
@@ -57,7 +59,9 @@ body {
 .portfolio > p {
     margin: 0;
     font-size: 50px;
-    font-family: "MagicRetro";
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
 }
 
 .contact {
@@ -67,7 +71,9 @@ body {
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 50px;
-    font-family: "MagicRetro";
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
 }
 
 .card-project {
