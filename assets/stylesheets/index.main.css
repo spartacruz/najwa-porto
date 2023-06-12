@@ -25,6 +25,7 @@ body {
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .about-title {
@@ -39,7 +40,7 @@ body {
     gap: 0px 30px;
 }
 
-.about img {
+.inner-about img {
     height: 470px;
     width: 313px;
 }
@@ -118,8 +119,8 @@ body {
     margin-top: 50px;
 }
 
-.contact p {
-    font-size: 35px;
+.contact > div {
+    font-size: 50px;
 }
 
 .card-project > .project {

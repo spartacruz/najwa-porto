@@ -8,6 +8,7 @@
     background-color: white;
     opacity: 0.8;
     backdrop-filter: blur(1000px);
+    z-index: 2;
 }
 
 .right-menu {
