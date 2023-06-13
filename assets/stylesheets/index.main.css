@@ -113,7 +113,7 @@ body {
 
 .inner-about {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: fit-content;
     gap: 0px 30px;
 }
