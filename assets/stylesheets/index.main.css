@@ -65,15 +65,17 @@ body {
 }
 
 .contact {
-    padding-top: 100px;
+    padding-top: 200px;
     background-color: #1B5ACC;
     height: 100vh;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* padding-bottom: 50px; */
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
     font-family: 'Rammetto One', cursive;
+    position: relative;
+    overflow: hidden;
 }
 
 .card-project {
@@ -127,6 +129,7 @@ body {
 
 .contact > div {
     font-size: 50px;
+    color: #FFE11C;
 }
 
 .card-project > .project {
@@ -144,6 +147,31 @@ body {
 
 .project > img {
     margin-right: 50px;
+}
+
+.contact-sub-text {
+    font-family: "Trebuchet MS" !important;
+    font-size: 20px !important;
+}
+
+.pink-ellipse {
+    height: 72px;
+    width: 29px;
+    margin-left: 10px;
+}
+
+.contact-white-star {
+    position: absolute;
+    top: 70%;
+    left: 24%;
+}
+
+.contact-pink-ellipse-large {
+    position: absolute;
+    top: 6%;
+    left: 91%;
+    height: 241px;
+    width: 274px;
 }
 
 @font-face {
