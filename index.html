@@ -10,7 +10,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Candal&family=Rammetto+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Rammetto+One&display=swap" rel="stylesheet">
     </head>
 
     <!-- https://stackoverflow.com/questions/58250413/how-to-change-background-image-on-click-with-animation-using-jquery-and-css -->
@@ -47,13 +47,17 @@
             </div>
         </section>
 
+        
         <section class="portfolio" id="portfolio">
+            <img class="portfolio-circle-text" src="assets/images/Circle-text.svg" alt="Circle text Element">
+            <img class="portfolio-circle-text-2" src="assets/images/Circle-text.svg" alt="Circle text Element">
+            <img class="portfolio-circle-text-3" src="assets/images/Circle-text.svg" alt="Circle text Element">
             <p>PIECE OF WORK<img class="portfolio-blue-ellipse" src="assets/images/ellipse-blue.svg" alt="Blue Ellipse Element"></p>
 
-            <div class="card-project" style="overflow:hidden">
+            <div class="card-project">
                 <div class="project-header">
-                    <p><a href="javascript:showWebsite()">Website</a></p>
-                    <p><a href="javascript:showPackaging()">Packaging</a></p>
+                    <p><a href="javascript:showWebsite()" id="a-website" style="color: #1B5ACC;">Website</a></p>
+                    <p><a href="javascript:showPackaging()" id="a-packaging" style="color: black;">Packaging</a></p>
                     <p>Wayfinding & Signage</p>
                 </div>
 
@@ -76,6 +80,12 @@
                         
                         <p class="project-attachment"><a href="#">See project here</a></p>
                     </div>
+
+                    <div class="double-arrow">
+                        <img class="project-up-arrow" src="assets/images/arrow.svg" alt="Up Arrow">
+                        <img class="project-down-arrow" src="assets/images/arrow.svg" alt="Down Arrow">
+                    </div>
+                    
                 </div>
 
                 <div class="project" id="packaging" style="display: none;">
@@ -132,13 +142,17 @@
 
             function showPackaging() {
                 document.getElementById("website").style.display = "none";
+                document.getElementById("a-website").style.color = "black"
                 document.getElementById("packaging").style.display = "flex";
+                document.getElementById("a-packaging").style.color = '#1B5ACC'
                 // document.getElementById("packaging").style.display = "block";
             }
 
             function showWebsite() {
                 document.getElementById("website").style.display = "flex";
+                document.getElementById("a-website").style.color = '#1B5ACC'
                 document.getElementById("packaging").style.display = "none";
+                document.getElementById("a-packaging").style.color = "black"
                 // document.getElementById("packaging").style.display = "block";
             }
         </script>
