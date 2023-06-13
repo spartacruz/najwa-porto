@@ -13,9 +13,9 @@ body {
     padding-top: 200px !important;
     background-color: #FE50A9;
     height: 100vh;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
 }
 
 .about {
@@ -28,11 +28,87 @@ body {
     position: relative;
 }
 
+.yellow-ellipse {
+    height: 72px !important; 
+    width: 29px !important;
+    margin-left: 10px;
+}
+
+.about-white-star {
+    position: absolute;
+    top: 73%;
+    left: 53%;
+}
+
+.about-white-star-2 {
+    position: absolute;
+    top: 49%;
+    left: 90%;
+    transform: rotate(76deg);
+}
+
+.about-ellipse-white-donut {
+    position: absolute;
+    top: 3%;
+    left: 10%
+}
+
+.about-ellipse-blue {
+    position: absolute;
+    top: 104%;
+    left: 11%;
+    transform: scale(9);
+}
+
+.about-ellipse-blue-2 {
+    position: absolute;
+    transform: scale(5);
+    top: -4%;
+    left: 76%;
+}
+
+.about-star-5 {
+    position: absolute;
+    top: 92%;
+    left: 73%;
+    z-index: 5;
+}
+
+
 .about-title {
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
     font-family: 'Rammetto One', cursive;
     font-size: 68px;
+    color: white;
+}
+
+.about-remarks {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.about-me {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 59px;
+}
+
+.about-link {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFE11C;
+}
+
+.about-link:hover {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1B5ACC;
 }
 
 .inner-about {
@@ -63,6 +139,24 @@ body {
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
     font-family: 'Rammetto One', cursive;
+}
+
+.portfolio-star-1 {
+    position: absolute;
+    top: 43%;
+    left: 6%;
+    transform: rotate(82deg);
+    height: 59px;
+    width: auto;
+}
+
+.portfolio-star-2 {
+    position: absolute;
+    transform: rotate(117deg);
+    height: 59px;
+    width: auto;
+    top: 96%;
+    left: 96%;
 }
 
 .portfolio-blue-ellipse {
@@ -147,7 +241,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 21px;
-    padding-bottom: 50px;  
+    padding-bottom: 25px;  
     margin-left: 35px;
     border-radius: 24px;
     position: relative;
@@ -190,8 +284,7 @@ body {
 }
 
 .home img {
-    max-width: 100%;
-    align-items: center;
+    width: 100%;
 }
 
 .about div {
